@@ -18,7 +18,7 @@ function UserList() {
         <>
             <ul className="users-list">
                 {data.map((user) => (
-                    <UsersListItem key={user.id} user={user}/>
+                    <UsersListItem key={user.id} user={user} />
                 ))}
             </ul>
         </>
