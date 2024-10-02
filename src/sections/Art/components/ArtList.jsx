@@ -19,7 +19,7 @@ function ArtList() {
         <>
             <ul className="art-list">
                 {data.map((artWork) => (
-                    <ArtListItem key={artWork.id} artWork={artWork} url={imageBaseUrl}/> //Making a new element of ArtListItem for each artWork. Key is the id from each artwork in the url. And passing the object to that key itself, as a prop. To be used in the child component.
+                    <ArtListItem key={artWork.id} artWork={artWork} url={imageBaseUrl} /> //Making a new element of ArtListItem for each artWork. Key is the id from each artwork in the url. And passing the object to that key itself, as a prop. To be used in the child component.
                 ))}
             </ul>
         </>
